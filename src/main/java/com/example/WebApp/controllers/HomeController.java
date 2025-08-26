@@ -17,5 +17,10 @@ public class HomeController {
         return "Olá, José!";
     }
 
+    @GetMapping("/jose2")
+    public @ResponseBody String greetingJose2() {
+        return "Olá, José2!";
+    }
+
 }
 
