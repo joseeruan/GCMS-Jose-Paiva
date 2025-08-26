@@ -22,5 +22,10 @@ public class HomeController {
         return "Olá, José2!";
     }
 
+    @GetMapping("/jose4")
+    public @ResponseBody String greetingJose4() {
+        return "Olá, José4!";
+    }
+
 }
 
