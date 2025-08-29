@@ -32,5 +32,10 @@ public class HomeController {
         return "Olá, José4!";
     }
 
+    @GetMapping("hotfix")
+    public @ResponseBody String hotfix() {
+        return "hotfix!";
+    }
+
 }
 
