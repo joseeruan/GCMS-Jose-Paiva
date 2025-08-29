@@ -32,12 +32,12 @@ public class HomeController {
         return "Olá, José4!";
     }
 
-    @GetMapping("hotfix")
+    @GetMapping("/hotfix")
     public @ResponseBody String hotfix() {
         return "hotfix!";
     }
 
-    @GetMapping("/hotfix")
+    @GetMapping("/hotfix2")
     public @ResponseBody String hotfix2() {
         return "hotfix!!!";
     }
