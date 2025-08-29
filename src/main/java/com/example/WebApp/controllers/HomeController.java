@@ -12,7 +12,6 @@ public class HomeController {
     public @ResponseBody String greeting() {
         return "Hello, World!";
     }
-
     @GetMapping("/jose")
     public @ResponseBody String greetingJose() {
         return "Olá, José!";
@@ -31,6 +30,11 @@ public class HomeController {
     @GetMapping("/jose4")
     public @ResponseBody String greetingJose4() {
         return "Olá, José4!";
+    }
+
+    @GetMapping("hotfix")
+    public @ResponseBody String hotfix() {
+        return "hotfix!";
     }
 
     @GetMapping("/hotfix")
