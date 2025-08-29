@@ -18,7 +18,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-     image: docker://<usuario-hub>/<repo>:<nome-imagem>
+     image: docker://naoquep/gcms_pratica06_ifpe:webapp
     permissions:
       contents: read
 
